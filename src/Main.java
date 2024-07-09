@@ -6,6 +6,10 @@ public class Main {
         Triangle triangle = new Triangle();
         int[] triple = new int[] {4,3,5};
         int result = triangle.pythagoreanTriple (triple);
-        System.out.println(result);
+        //System.out.println(result);
+
+        Maskinglast4 maskinglast4 = new Maskinglast4();
+        String result2 = maskinglast4.maskify("İbrahim");
+        System.out.println(result2);
     }
 }

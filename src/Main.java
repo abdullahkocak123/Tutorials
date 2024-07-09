@@ -4,12 +4,17 @@ public class Main {
     public static void main(String[] args) {
 
         Triangle triangle = new Triangle();
-        int[] triple = new int[] {4,3,5};
-        int result = triangle.pythagoreanTriple (triple);
-        //System.out.println(result);
+        int[] tripleInput = new int[] {4,3,5};
+        int tripleResult = triangle.pythagoreanTriple (tripleInput);
+        //System.out.println(tripleResult);
 
         Maskinglast4 maskinglast4 = new Maskinglast4();
-        String result2 = maskinglast4.maskify("İbrahim");
-        System.out.println(result2);
+        String maskingResult = maskinglast4.maskify("İbrahim");
+        //System.out.println(maskingResult);
+
+        SumNoDuplicates sumNoDuplicates = new SumNoDuplicates();
+        int[] sumNoDuplicatesInput = new int[] {1,1,2,3};
+        int sumNoDuplicatesResult = sumNoDuplicates.sumNoDuplicates(sumNoDuplicatesInput);
+        System.out.println(sumNoDuplicatesResult);
     }
 }

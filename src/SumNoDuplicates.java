@@ -9,6 +9,7 @@ public class SumNoDuplicates {
             for (int j=0; j< arr.length; j++) {
                 if (i != j && arr[i]==arr[j]) {
                     match = true;
+                    break;
                 }
 
             }

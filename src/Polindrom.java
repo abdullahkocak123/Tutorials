@@ -1,6 +1,3 @@
-import javax.swing.*;
-import java.util.ArrayList;
-
 public class Polindrom {
     public boolean isPolindrom (String str){
         char[] list = str.toCharArray();

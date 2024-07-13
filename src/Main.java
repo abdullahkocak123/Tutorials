@@ -21,6 +21,21 @@ public class Main {
         String shortLongShortInput1 = "33";
         String shortLongShortInput2 = "2";
         String shortLongShortResult = shortLongShort.solution(shortLongShortInput1,shortLongShortInput2);
-        System.out.println(shortLongShortResult);
+        //System.out.println(shortLongShortResult);
+
+        VowelCount vowelCount = new VowelCount();
+        String vowelCountInput = "deneme";
+        int vowelCountResult = vowelCount.getVowelCount(vowelCountInput);
+        //System.out.println(vowelCountResult);
+
+        Polindrom polindrom = new Polindrom();
+        String polindromInput = "küçük";
+        boolean polindromResult = polindrom.isPolindrom(polindromInput);
+        if (polindromResult){
+            System.out.println(polindromInput + " polindromdur");
+        }else{
+            System.out.println(polindromInput + " polindrom değildir");
+        }
+
     }
 }

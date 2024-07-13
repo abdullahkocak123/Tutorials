@@ -1,8 +1,12 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class VowelCount {
     public int getVowelCount(String str) {
         int count = 0;
+        ArrayList<Character> vowels = new ArrayList<>(Arrays.asList('a','e','i','o','u')) ;
         for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o'|| str.charAt(i) == 'u'){
+            if (vowels.contains(str.charAt(i))){
                 count++;
             }
         }

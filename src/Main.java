@@ -15,6 +15,12 @@ public class Main {
         SumNoDuplicates sumNoDuplicates = new SumNoDuplicates();
         int[] sumNoDuplicatesInput = new int[] {1,1,2,3};
         int sumNoDuplicatesResult = sumNoDuplicates.sumNoDuplicates(sumNoDuplicatesInput);
-        System.out.println(sumNoDuplicatesResult);
+        //System.out.println(sumNoDuplicatesResult);
+
+        ShortLongShort shortLongShort = new ShortLongShort();
+        String shortLongShortInput1 = "33";
+        String shortLongShortInput2 = "2";
+        String shortLongShortResult = shortLongShort.solution(shortLongShortInput1,shortLongShortInput2);
+        System.out.println(shortLongShortResult);
     }
 }

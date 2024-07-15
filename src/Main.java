@@ -32,10 +32,20 @@ public class Main {
         String polindromInput = "küçük";
         boolean polindromResult = polindrom.isPolindrom(polindromInput);
         if (polindromResult){
-            System.out.println(polindromInput + " polindromdur");
+            //System.out.println(polindromInput + " polindromdur");
         }else{
-            System.out.println(polindromInput + " polindrom değildir");
+            //System.out.println(polindromInput + " polindrom değildir");
         }
+
+        HumanReadableTime humanReadableTime = new HumanReadableTime();
+        int humanReadableTimeInput = 359999;
+        String humanReadableResult = humanReadableTime.execute(humanReadableTimeInput);
+        //System.out.println(humanReadableResult);
+
+        TalToAltay talToAltay = new TalToAltay();
+        String talToAltayInput = "ali ata bak !";
+        String talToAltayResult = talToAltay.execute(talToAltayInput);
+        System.out.println(talToAltayResult);
 
     }
 }

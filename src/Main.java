@@ -45,7 +45,14 @@ public class Main {
         TalToAltay talToAltay = new TalToAltay();
         String talToAltayInput = "ali ata bak !";
         String talToAltayResult = talToAltay.execute(talToAltayInput);
-        System.out.println(talToAltayResult);
+        //System.out.println(talToAltayResult);
 
+        RgbToHex rgbToHex = new RgbToHex();
+        String rgbToHexResult = rgbToHex.getHex(-20,275,125);
+        //System.out.println(rgbToHexResult);
+
+        NextBiggerNumber nextBiggerNumber = new NextBiggerNumber();
+        long x = nextBiggerNumber.getNextBiggerNumber(10990);
+        System.out.println(x);
     }
 }

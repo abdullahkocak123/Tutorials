@@ -52,7 +52,7 @@ public class Main {
         //System.out.println(rgbToHexResult);
 
         NextBiggerNumber nextBiggerNumber = new NextBiggerNumber();
-        long x = nextBiggerNumber.getNextBiggerNumber(10990);
+        long x = nextBiggerNumber.getNextBiggerNumber(123);
         System.out.println(x);
     }
 }

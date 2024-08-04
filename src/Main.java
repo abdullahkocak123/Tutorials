@@ -53,6 +53,10 @@ public class Main {
 
         NextBiggerNumber nextBiggerNumber = new NextBiggerNumber();
         long x = nextBiggerNumber.getNextBiggerNumber(123);
-        System.out.println(x);
+        //System.out.println(x);
+
+        SumOfMultiple3or5 sumOfMultiple3or5 = new SumOfMultiple3or5();
+        int sum = sumOfMultiple3or5.execute(10);
+        System.out.println(sum);
     }
 }

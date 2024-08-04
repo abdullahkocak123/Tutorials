@@ -22,9 +22,9 @@ public class NextBiggerNumber {
         char temp = newWordArray[index1];
         newWordArray[index1]=newWordArray[index2];
         newWordArray[index2]=temp;
-        System.out.println(index1);
-        System.out.println(index2);
-        System.out.println(Integer.valueOf(String.valueOf(newWordArray)));
+        //System.out.println(index1);
+        //System.out.println(index2);
+        //System.out.println(Integer.valueOf(String.valueOf(newWordArray)));
         return Integer.valueOf(String.valueOf(newWordArray));
 
     }

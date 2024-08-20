@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.LinkedList;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -57,6 +60,10 @@ public class Main {
 
         SumOfMultiple3or5 sumOfMultiple3or5 = new SumOfMultiple3or5();
         int sum = sumOfMultiple3or5.execute(10);
-        System.out.println(sum);
+        //System.out.println(sum);
+
+        SquareEveryDigit squareEveryDigit = new SquareEveryDigit();
+        int y = squareEveryDigit.execute(137);
+        System.out.println(y);
     }
 }

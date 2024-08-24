@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.LinkedList;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -64,6 +61,16 @@ public class Main {
 
         SquareEveryDigit squareEveryDigit = new SquareEveryDigit();
         int y = squareEveryDigit.execute(137);
-        System.out.println(y);
+        //System.out.println(y);
+
+        Fibonacci fibonacci = new Fibonacci();
+        int result = fibonacci.execute(46);
+        System.out.println(result);
+
+        FibonacciRecursive fibonacciRecursive = new FibonacciRecursive();
+        int result2 = fibonacciRecursive.execute(46);
+        System.out.println(result2);
+
+
     }
 }

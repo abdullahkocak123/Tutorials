@@ -64,13 +64,15 @@ public class Main {
         //System.out.println(y);
 
         Fibonacci fibonacci = new Fibonacci();
-        int result = fibonacci.execute(46);
-        System.out.println(result);
+        //int result = fibonacci.execute(46);
+        //System.out.println(result);
 
         FibonacciRecursive fibonacciRecursive = new FibonacciRecursive();
-        int result2 = fibonacciRecursive.execute(46);
-        System.out.println(result2);
+        //int result2 = fibonacciRecursive.execute(46);
+        //System.out.println(result2);
 
-
+        WhoLikesIt whoLikesIt = new WhoLikesIt();
+        String whoLikesItResult = whoLikesIt.execute("peter","hasan","abdullah","vera","ibrahim");
+        System.out.println(whoLikesItResult);
     }
 }

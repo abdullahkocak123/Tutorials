@@ -72,7 +72,11 @@ public class Main {
         //System.out.println(result2);
 
         WhoLikesIt whoLikesIt = new WhoLikesIt();
-        String whoLikesItResult = whoLikesIt.execute("peter","hasan","abdullah","vera","ibrahim");
-        System.out.println(whoLikesItResult);
+        //String whoLikesItResult = whoLikesIt.execute("peter","hasan","abdullah","vera","ibrahim");
+        //System.out.println(whoLikesItResult);
+
+        MontyHall montyHall = new MontyHall();
+        montyHall.pickDoor();
+
     }
 }
